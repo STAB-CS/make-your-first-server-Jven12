@@ -1,17 +1,32 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<link rel="shortcut icon" type="image/png" href="https://i.pinimg.com/originals/19/95/0c/19950c83ac1f0a4ca85819338e5f2a03.png">
+		<link rel="shortcut icon" type="image/png" href="https://media.makeameme.org/created/big-cungus.jpg">
 		<!-- import the webpage's stylesheet -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/home.css"/>
 		<!-- import the webpage's client-side javascript file -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<title>Welcome to Your Site</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+		</script>
+		<script src="/socket.io/socket.io.js"></script>
+		<title>welcome to da sevr</title>
 	</head>
 	<body>
+		<ul id=messageHistory> </ul>
+		
+		<form >
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <label for="lname">Message:</label><br>
+  <input type="text" id="message" name="message" value=""><br><br>
+  <input type="submit" id = "sendMessage" value="Submit">
+</form> 
+
+		<button id="lightbutton" type="button"> Change the LIGHTS BRO</button>
 		<div>
-			Hi there! Make me into something cool!
+			
 		</div>
+
+		<script src="/script.js"></script>
 	</body>
 </html>
